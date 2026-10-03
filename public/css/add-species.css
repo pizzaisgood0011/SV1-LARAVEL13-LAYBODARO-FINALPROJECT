@@ -1,0 +1,93 @@
+.species-container {
+    max-width: 550px;
+    margin: 40px auto;
+    padding: 0 16px;
+}
+
+.nav-header {
+    margin-bottom: 20px;
+}
+
+/* Back Button Styles */
+.btn-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--text-muted, #64748b);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: color 0.2s ease;
+    width: fit-content;
+}
+
+.btn-back i {
+    font-size: 16px;
+}
+
+.btn-back:hover {
+    color: var(--primary-color, #2563eb);
+    text-decoration: none;
+}
+
+/* Cards */
+.form-card,
+.species-table-card {
+    background: #ffffff;
+    padding: 28px;
+    border-radius: 12px;
+    border: 1px solid var(--border-color, #cbd5e1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 24px;
+}
+
+.form-card h2,
+.species-table-card h3 {
+    margin-bottom: 18px;
+    font-size: 20px;
+    color: var(--text-main, #0f172a);
+}
+
+/* List Items */
+.species-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.species-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.species-item:last-child {
+    border-bottom: none;
+}
+
+.species-item span {
+    font-weight: 500;
+    color: #334155;
+}
+
+/* Action Buttons Inside List */
+.btn-sm.btn-delete {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background-color: #fee2e2;
+    color: #991b1b;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-sm.btn-delete:hover {
+    background-color: #fca5a5;
+}
